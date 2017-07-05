@@ -1,0 +1,90 @@
+body{
+    font-size: 12px;
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+body,html{
+    overflow:auto;
+    height: 100%;
+}
+.wrap{
+    height: auto;
+}
+.logo {
+    width: 13%;
+}
+.que_sel {
+    margin-top: 0;
+}
+.index_img {
+    padding: 11%;
+    margin-top: -10%;
+}	
+.calculate_btn{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -11%;
+    width: 40%;
+    z-index: 11;
+}
+.bot_img {
+    margin-top: -36%;
+    position: relative;
+}
+.answer p {
+    margin: 3% 0;
+}
+/*.introimg {
+    width: 65%;
+}*/
+.next_con{
+    /*margin-top: 2%;*/
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.share img{
+    width: 75%;
+}
+.er{
+    margin-top: 33%;
+}
+.wraps{
+    height: auto;
+}
+#all{
+    overflow: auto;
+}
+.pic{
+    position: relative;
+}
+.index_imgs .money{
+    margin-top: -22.5%;
+}
+.pic p {
+    bottom: 12%;
+}
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:505px){
+body,html{
+    /*overflow:auto;*/
+    height: 100%;
+}  
+#all{
+    overflow: auto;
+}
+.answer p{
+    margin: 6.5% 0;
+    line-height: 1.5em;
+    padding-left: 8%;
+    position: relative;
+}
+.pic p {
+    bottom: 13%;
+}
+.next_con{
+    bottom: -2%;
+}
+}
