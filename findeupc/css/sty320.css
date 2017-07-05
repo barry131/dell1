@@ -1,0 +1,47 @@
+body{
+    font-size: 12px;
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+.box{
+	display: block;
+}
+.answer {
+    margin: 0% auto;
+}
+.answer p {
+    padding-left: 8%;
+    line-height: 1.1em;
+}
+.answer img {
+    width: 11%;
+}
+.answer i{
+    left: 17%;
+}
+/*.foot {
+    position: relative;
+    bottom:0;
+}*/
+.foot {
+    position: absolute;
+    bottom: 5%;
+}
+.foot_money{
+	position: relative;
+	bottom: 0;
+}
+.footter{
+	position: relative;
+}
+.pop-cens {
+    margin-top:35%;
+}
+.share img {
+    width: 75%;
+}
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:505px){
+
+}

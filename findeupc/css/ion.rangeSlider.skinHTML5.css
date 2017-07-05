@@ -1,0 +1,65 @@
+
+.irs-line {
+    height: 30px;
+}
+.irs-bar {
+    height: 5px; 
+    top: 8px;
+    background: url(images/line_2.png);
+}
+.irs-shadow {
+    height: 2px; top: 38px;
+    background: #000;
+    opacity: 0.3;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.irs-slider {
+    top: -6px;
+    width: 27px; 
+    height: 35px;
+    background: url(images/but_14.png) no-repeat;
+    background-size: 100% 100%;
+}
+.irs-min, .irs-max {
+     color: #78c831;
+  font-size: 1em;
+  line-height: 1.333;
+  text-shadow: none;
+  top: 18px;
+  padding: 1px 5px;
+  display: none;
+}
+.lt-ie9 .irs-min, .lt-ie9 .irs-max {
+    background: #ccc;
+}
+.irs-from, .irs-to, .irs-single {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 5px 15px;
+    background: #9bd467;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    display: none;
+}
+.lt-ie9 .irs-from, .lt-ie9 .irs-to, .lt-ie9 .irs-single {
+    background: #999;
+}
+.irs-grid {
+    height: 27px;
+}
+.irs-grid-pol {
+    opacity: 0.5;
+    background: #428bca;
+}
+.irs-grid-pol.small {
+    background: #999;
+}
+
+.irs-grid-text {
+    bottom: 5px;
+    color: #78c831;
+  font-size: 1em;
+}
