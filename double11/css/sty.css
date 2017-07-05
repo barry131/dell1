@@ -1,0 +1,617 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	max-width: 640px;
+	min-width: 320px;
+	width: auto;
+          overflow: hidden;
+}
+section{
+	display: block;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+}
+@font-face{font-family: "dell";
+ src:url(fzzy.ttf)
+}
+@font-face{font-family: "ydell";
+ src:url(yfzzy.ttf)
+}
+.sec_first{
+	background-image: url(../images/double_bj.jpg);
+	background-size: 100% 100%;
+	display: block;
+}
+/*.sec_first img{
+	margin-top: 5%;
+}*/
+.first_main{
+	color: #fff;
+	text-align: center;
+	/*padding-top: 8%;*/
+}
+.first_time{
+	font-size: 5em;
+}
+.first_time2{
+	font-size: 1.5em;
+}
+.second_newfriend{
+	overflow: auto;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 2% 0;
+}
+.newfriend_headimg{
+	width: 60%;
+	display: block;
+	float: left;
+	margin-left: 3%;
+}
+.newfriend_headimg img{
+	width:68%;
+}
+.newfriend_btn{
+	float: right;
+	margin-right: 3%;
+	background: #00bf2b;
+	color: #fff;
+	padding: 1.5% 2%;
+	border-radius: 5px;
+	margin-top: 1.7%;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size:13px;
+	position:relative;
+}
+.sec_third{
+	background: #ebebeb;
+	position: relative;
+}
+.third_main{
+	padding: 1% 3%;
+}
+.chat_info{
+    font-size: 1.1em;
+	overflow: hidden;
+	margin: 7% 0;
+}
+.showobj{
+	display: none;
+}
+.chat_head{
+	width: 12%;
+	display: block;
+	float: left;
+}
+.chat_box{
+	max-width: 60%;
+    background: url(../images/chat_img1.png) no-repeat;
+    background-size: 100% 85%;
+    padding: 4% 2% 5% 4%;
+    position: absolute;
+	margin-left: 3%;
+	color:#3f3f3f;
+	font-size:14px;
+}
+.chat_box2{
+	max-width: 60%;
+    background: url(../images/chat_img3.png) no-repeat;
+    background-size: 94% 86%;
+    padding: 3.5% 6% 5% 4%;
+    position: absolute;
+	margin-left: 3%;
+	color:#3f3f3f;
+	font-size:14px;
+}
+.chat_redpacket{
+	width: 75%;
+    display: inline-block;
+    margin-left: 3%;
+}
+.chat_redpacket img{
+	width:78%;
+}
+.chat_infoRight{
+    font-size: 1.1em;
+	overflow: hidden;
+	margin: 7% 0;
+}
+.chat_infoRight .chat_head{
+	width: 12%;
+	display: block;
+	float: right;
+}
+
+.chat_infoRight .chat_box{
+	max-width: 60%;
+    background: url(../images/chat_img2.png) no-repeat;
+    background-size: 100% 90%;
+    padding: 4% 6% 5% 3%;
+    position: absolute;
+	margin-left: 45%;
+	color:#3f3f3f;
+}
+.chat_text{
+	text-align: center;
+	margin: 5% 0;
+}
+.chat_text span{
+	background: #d4d4d4;
+	padding: 2% 2%;
+	margin: 0 auto;
+	border-radius: 5px;
+	color: #fff;
+	font-weight:100;
+	display: inline-block;
+	font-size:12px;
+}
+.chat_bottom{
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+	padding: 3% 2%;
+	width: 96%;
+	font-size: 1.1em;
+}
+.chat_bottom_img{
+	width: 10%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.chat_bot_box{
+	width: 57%;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	padding: 2.2% 3%;
+	display: inline-block;
+	border-radius: 5px;
+	color:#3f3f3f;
+	font-size:14px;
+}
+.chat_bottom_btn{
+	padding: 2% 0;
+	background: #52bd01;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+.sec_fifth{
+	background-image: url(../images/tel_bj.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+.tel_head{
+    margin-top: 7%;
+}
+.tel_info{
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+}
+.tel_img{
+	width: 10%;
+	margin: 0 auto;
+}
+.tel_anser{
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 7%;
+	margin-bottom: 3%;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.sec_eighth{
+	background-image: url(../images/share_bg1.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+.eighth_bottom{
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+.dell_logo{
+	width: 10%;
+	padding: 3% 0 0 3%;
+}
+.eighth_info{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.eighth_ewm{
+	width: 50%;
+	color: #fff;
+	text-align: center;
+	font-size: 0.95em;
+	margin: 0 auto;
+}
+.nineth_info{
+	position: relative;
+	margin: 0 auto;
+	top: -3%
+}
+.get_money{
+	font-size: 3em;
+    position: absolute;
+    top: 45%;
+    margin-left: 57%;
+	color: #fbbd00;
+}
+.share_botinfo{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	top: -3%;
+}
+.sharebot_dh{
+	position: absolute;
+	width: 30%;
+	left: 5%;
+	height: 40px;
+	top: 10%;
+}
+.sharebot_tjhy{
+	position: absolute;
+	width: 30%;
+	right: 5%;
+	height: 40px;
+	top: 10%;
+}
+.send_btnshow{
+	display: none;
+}
+.share_yh{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #fff;
+}
+.share_yh span{
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	padding: 0 3%;
+	font-family: "dell";
+}
+.share_yhimg{
+	background: #000;
+	text-align: center;
+	margin-top: 3%;
+}
+.share_yhimg img{
+	width: 98%;
+    margin-top: 1%;
+}
+.coupon_wrap{
+    position: absolute;
+    display: none;
+    top: 0;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.84);
+}
+.coupon_illustrate{
+	position: relative;
+    top: 10%;
+}
+.coupon_close{
+	position: absolute;
+    right: 8%;
+    top: 20%;
+    width: 10%;
+}
+.alert_yhqsysm .coupon_info{
+	position: absolute;
+    padding-top: 0;
+    top: 32%;
+    left: 10%;	
+}
+
+.coupon_info{
+	position: absolute;
+    padding-top: 0;
+    top: 32%;
+}
+.alert_wydh .coupon_info{
+	width: 100%;
+}
+.alert_yhqsysm span{
+	position: absolute;
+	width: 8%;
+	left: -2%;
+}
+.alert_yhqsysm p{
+	color: #fff;
+    line-height: 25px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+	font-size:0.8em;
+	width: 78%;
+    margin-left: 10%;
+	font-family: "dell";
+	letter-spacing:-0.4px;
+	font-size:11px;
+}
+.alert_yhqsysm p b{
+	font-family: "ydell";
+	font-weight:100;
+}
+.alert_yqhy{
+	color: #fff;
+	text-align: center;
+	line-height: 25px;
+	padding-top: 45%;
+	font-weight: bold;
+}
+.eighth_ewm img{
+	margin-bottom: 3%;
+}
+
+/*iphone 6 plus*/
+@media screen and (max-width: 415px) and (min-width: 413px) and (max-height: 678px){ 
+.sharebot_dh{
+	height: 47px;
+}
+.sharebot_tjhy{
+	height: 47px;
+}
+.eighth_info {
+    padding-top: 5%;
+}
+.alert_yhqsysm p {
+    margin-top: 10%;
+	margin-left: 12%;
+	line-height: 27px;
+}
+.alert_yhqsysm span{
+	left: 0;
+}
+}
+
+/*iphone 6*/
+@media screen and (max-width: 376px) and (min-width: 374px) and (max-height: 610px){
+.sharebot_dh{
+	height: 50px;
+}
+.share_yh img {
+    margin-top: 5%;
+}
+.eighth_info {
+    padding-top: 5%;
+}
+.alert_yhqsysm p {
+    margin-top: 10%;
+	margin-left: 12%;
+}
+.alert_yhqsysm span{
+	left: 0;
+}
+}
+
+/*三星 note3 || s4  || 小米2  || 小米3  || 小米4（572）*/
+/*iphone 5 || 小米2 || 小米3可以用一套样式{ 320/504 == 360/567 }*/
+@media screen and (max-width: 360px) and (min-width: 355px) and (max-height: 572px) and (min-height: 567px){ 
+.alert_yhqsysm p {
+	margin-top: 9%;
+	font-size:10px;
+}
+
+}
+
+/*Sony(索尼)，摩托罗拉*/
+@media screen and (max-width: 360px) and (min-width: 355px) and (max-height: 525px) { 
+	
+}
+
+@media screen and (max-width: 320px) and (max-height: 504px){
+	.alert_yhqsysm p{
+		line-height:20px;
+	}
+	.coupon_wrap p{
+		font-family:"dell";
+	}
+}
+
+/*苹果4*/
+@media screen and (max-width: 320px) and (max-height: 420px){
+.share_botinfo {
+    width: 65%;
+    margin-top: 0%;
+}
+.nineth_info {
+    width: 73%;
+}
+.share_yh img {
+    margin-top: 2%;
+}
+.third_main{
+	padding-bottom: 13%;
+}
+.chat_info{ margin: 2% 0; }
+.chat_text {
+    margin: 2% 0 4% 0;
+}
+.chat_head {
+    width: 15%;
+}
+.chat_box {
+	padding: 3% 3% 3% 5%;
+}
+.chat_infoRight .chat_head {
+    width: 15%;
+}
+.chat_infoRight .chat_box {
+    padding: 2% 2% 2% 2%;
+    right: 20%;
+}
+.coupon_illustrate {
+    top: 5%;
+}
+.get_money {
+    font-size: 2.5em;
+    top: 43%;
+    margin-left: 55%;
+    color: #fbbd00;
+}
+.share_yhimg {
+    margin-top: 2%;
+}
+}
+
+
+@-webkit-keyframes shine {
+
+  from {
+
+    background-position: 150%;
+
+  }
+
+  to {
+
+    background-position: -50%;
+
+  }
+
+}
+@keyframes shine {
+
+  from {
+
+    background-position: 150%;
+
+  }
+
+  to {
+
+    background-position: -50%;
+
+  }
+
+}
+.share_yh p{
+	position: absolute;
+    top: 14%;
+    width: 100%;
+    font-size: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #6E5463;
+    background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.6) 30%, #ffffff 50%, rgba(0, 0, 0, 0.6) 70%);
+    background-blend-mode: hard-light;
+    background-size: 200%;
+    -webkit-animation: shine 3s infinite;
+    font-weight: bold;
+    font-family: "黑体";
+    letter-spacing: 1px;
+	line-height:30px;
+	text-indent:-28px;
+}
+.share_yh p i{
+	font-size:30px;
+	font-style: normal;
+	vertical-align: top;
+	line-height:30px;
+
+}
+.share_yh .share-text{
+	font-size:20px;
+	background-color:#877881;
+	font-family: "黑体";
+}
+.share_yh .share-text i{
+	font-size:20px;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+	opacity:1;
+  }
+  
+  to {
+    -webkit-transform: scale3d(1.3, 1.4, 1.4);
+    transform: scale3d(1.4, 1.4, 1.4);
+	opacity:0;
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+	opacity:1;
+  }
+
+  to {
+    -webkit-transform: scale3d(1.4, 1.4, 1.4);
+    transform: scale3d(1.4, 1.4, 1.4);
+	opacity:0;
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.quan{
+	float: left;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #fff;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 0.4em;
+    left: 1em;
+    border-radius: 50px;
+}
+.quan i{
+	display:block;
+	width:0.8em;
+	height:0.8em;
+	margin:0.1em auto 0;
+	background-color:#fff;
+	border-radius: 50px;
+}
+
+.quan2{
+	float: left;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #fff;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    border-radius: 50px;
+}
+.quan2 i{
+	display:block;
+	width:0.8em;
+	height:0.8em;
+	margin:0.1em auto 0;
+	background-color:#fff;
+	border-radius: 50px;
+}

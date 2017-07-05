@@ -1,0 +1,62 @@
+body{
+    font-size: 14px;
+}
+.product_btn{
+	bottom:10%;
+}
+/*类似索尼屏幕*/
+@media screen and (max-height: 530px){
+
+}
+@media screen and (max-width: 360px) and (min-width: 350px) and (max-height: 567px){
+.product_btn{
+	bottom:10%;
+}
+}
+
+
+/*魅族4 384*519*/
+@media screen and (max-width: 385px) and (min-width: 380px) and (max-height: 520px){
+
+}
+
+/*魅族3 432*600 */
+@media screen and (max-width: 435px) and (min-width: 430px) and (max-height: 610px){
+
+
+}
+/*苹果6*/
+@media screen and (max-width: 376px) and (min-width: 374px) and (max-height: 610px){
+.wk_tu{
+	top:-4px;
+}
+.wk_praise{
+	top:5px;
+}
+.product_tu{
+	margin-top:7%;
+}
+}
+@media screen and (max-width: 415px) and (min-width: 413px) and (max-height: 678px){
+.wk_praise{
+	top:5%;
+}
+.wk_tu{
+	top:15px;
+}
+.product_tu{
+	margin-top:8%;
+}
+.wk_right_text{
+	height:112px;
+}
+.wk_right_text span{
+	height:112px;
+}
+.product_btn{
+	bottom:10%;
+}
+#wk_body .product_tu{
+	margin-top:4%;
+}
+}
